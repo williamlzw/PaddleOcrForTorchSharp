@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4" Version="4.10.0.20240616" />
+    <PackageReference Include="OpenCvSharp4.Windows" Version="4.10.0.20240616" />
+    <PackageReference Include="TorchSharp-cuda-windows" Version="0.103.0" />
+    <PackageReference Include="TorchVision" Version="0.103.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Clipper">
+      <HintPath>..\data\Clipper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
